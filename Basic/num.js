@@ -6,3 +6,5 @@ console.log(num);
 
 console.log(Math);
 console.log(Math.abs(-4000));
+
+console.log(Math.random());
