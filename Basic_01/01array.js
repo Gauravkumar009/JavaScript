@@ -1,6 +1,7 @@
 const marvel = ["Thor", "Ironman","Spiderman"]
-const dc = ["SuperMan", "Flash","BAtman"]
+const dc = ["SuperMan", "Flash","Batman"]
 
-marvel.push(dc)
+//marvel.push(dc)
+const all = [...marvel , ...dc]
 
-console.log(marvel);
+console.log(all);
