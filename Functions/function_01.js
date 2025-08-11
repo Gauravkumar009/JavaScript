@@ -14,3 +14,9 @@ function addTwoNumbers(num1 ,num2){
 }
 
 addTwoNumbers(23,34)
+
+function calculateCarPrice(...num){
+    return num
+}
+
+console.log(calculateCarPrice(2,3434,3435,34,35))
