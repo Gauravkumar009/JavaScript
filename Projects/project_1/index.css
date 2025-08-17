@@ -1,0 +1,56 @@
+html {
+  margin: 0;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    gap: .5rem;
+    border-bottom: solid 1px #aaa;
+    background-color: #eee;
+    
+}
+nav a{
+    height: 20px;
+    width: 60px;
+    /* border-radius: 10%; */
+    border: solid 1px black;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
+    color: black;
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
