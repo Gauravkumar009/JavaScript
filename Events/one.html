@@ -31,23 +31,23 @@
     </div>
 </body>
 <script>
-    // document.getElementById('owl').onclick=function(){
-    //     alert("owl clicked again")
-    // }
-    // document.getElementById('images').addEventListener('click',function(e){
-    //     console.log("clicked inside the ul")
-    // },false)
+    document.getElementById('owl').onclick=function(){
+        alert("owl clicked again")
+    }
+    document.getElementById('images').addEventListener('click',function(e){
+        console.log("clicked inside the ul")
+    },false)
 
-    // document.getElementById('owl').addEventListener('click',function(e){
-    //     console.log("owl clicked ")
-    //     e.stopPropagation()
-    // },false)
+    document.getElementById('owl').addEventListener('click',function(e){
+        console.log("owl clicked ")
+        e.stopPropagation()
+    },false)
 
-    // document.getElementById('google').addEventListener('click',function(e){
-    //     e.preventDefault();
-    //     console.log("Google clicked ")
-    // },false)
-
+    document.getElementById('google').addEventListener('click',function(e){
+        e.preventDefault();
+        console.log("Google clicked ")
+    },false)
+    
     document.querySelector("#images").addEventListener('click',function(e){
         console.log(e.target.tagName);
         if (e.target.tagName =="IMG") {
