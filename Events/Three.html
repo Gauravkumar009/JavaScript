@@ -11,6 +11,10 @@
     <button id="stop">Stop</button>
 </body>
 <script>
-    
+    const ADate = function(){
+        console.log("Aman" ,Date.now());
+    }
+    const InterValId = setInterval(ADate,1000,"Kumar")
+    clearInterval(InterValId)
 </script>
 </html>
