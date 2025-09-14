@@ -89,5 +89,4 @@ async function getAllUsers(){
         console.log("E: ",error);
    }
 }
-
 getAllUsers()
